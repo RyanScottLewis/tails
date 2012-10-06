@@ -1,3 +1,5 @@
+require 'version'
+
 module Tails
-  VERSION = '0.1.0'
+  VERSION = Version.current || Version.new('0.0.0')
 end
